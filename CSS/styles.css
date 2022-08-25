@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #212529;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+a:link,
+a:visited{
+    color: white;
+}
+
+a:hover {
+    color: #ffb742;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;   
+}
+ul {
+    display: flex;
+}
+li {
+    list-style: none;
+    margin: 20px;
+}
+button {
+    font-weight: 900;
+    background-color: #ffb742;
+    color: black;
+    height: 54px;
+    width: 110px;
+    border-radius: 50px;
+    border-style: none;
+    margin: 10px;  
+}
+main {
+    font-family: 'inter';
+    justify-content:center;
+    align-content: center;
+    margin: 30px 10px;
+    text-align: center;
+}
+main span{
+    display: block;
+}
+img {
+    border-radius: 100px;
+}
+#nombreResaltado{
+    color: #ffb742;
+}
+#subtituloMain {
+    font-size: 15px;
+    display: block;
+}
+h2 {
+    font-size: 26px;
+}
+h1 {
+    font-size: 30px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section div {
+    height: 80px;
+    width: 250px;
+    margin: 30px;
+    border-radius: 10px;
+}
+.cj {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cajaMediana{
+    background-color: #292b2e;
+    margin:10px 15px;
+    padding: 3px;
+    justify-content: space-between;
+}
+#numeroResaltado{
+    color: #ffb742;
+    font-weight: 150px;
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: space-around;
+    
+}
+footer ul {
+    flex-direction: column;
+}
+footer li {
+    font-size: 10px;
+    margin: 2px;
+    color: #7B7B7B;
+}
+.botonEmail {
+    display: flex;
+    height: 30px;
+    border-radius: 30px;
+    
+}

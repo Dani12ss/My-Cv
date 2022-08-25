@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #212529;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+a:link,
+a:visited{
+    color: white;
+}
+
+a:hover {
+    color: #ffb742;
+}
+
+a {
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+}
+li {
+    list-style: none;
+    margin: 20px;
+}
+button {
+    font-weight: 900;
+    background-color: #ffb742;
+    color: black;
+    height: 54px;
+    width: 110px;
+    border-radius: 50px;
+    border-style: none;
+    margin: 10px;  
+}
+main {
+    font-family: 'inter';
+    margin: 30px 10px;
+    text-align: center;
+}
+#resaltado {
+    font-size: 18px;
+    color: #ffb742;
+    background-color: #292b2e;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section div {
+    display: block;
+    font-size: 10px;
+}
+.Cajota {
+    background-color: #FFFFFF;
+    margin: 100px;
+    padding: 10px;
+    width: 300px ;
+    text-align: center;
+    display: flex;
+    font-size: 10px;
+    color: black;
+    border: 2px solid black;
+    flex-direction: column;
+
+
+}
+footer {
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: space-around;
+    
+}
+footer ul {
+    flex-direction: column;
+}
+footer li {
+    font-size: 10px;
+    margin: 2px;
+    color: #7B7B7B;
+}

@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/styles.css">
     <title>My CV</title>
 </head>
 <body>
@@ -11,19 +15,80 @@
         <img src="./img/Frame 7.svg" alt="logo">
         <nav>
             <ul>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="experience.html">Experience</a>
-                <a href="contact.html">Contact</a>
-                <button>Hire me</button>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+        <button>Change Mode</button>
     </header>
-    <h2>Hi I'm Daniela Salazar</h2>
-    <h1>Assistant Administrative and English Student</h1>
-    <h3>Don't give up, I can do it</h3>
-    <div></div>
-    <div></div>
-    <div></div>
+
+    <main>
+        <h2>Hi, I Am <span id="nombreResaltado">Daniela Salazar Suarez &#128075;</span></h2>
+        <h1>Assistant Administrative, English Student and Dev Wannibe.</h1>
+        <span id="subtituloMain">Don't Give Up, Make It Worthwhile.</span>
+        <img src="./img/myAvatar (4).png" alt="Profile">
+    </main>
+    <section>
+        <div class="cajaMediana center"> 
+            <img src="./img/Group 6.png" alt="logo experiencia" width="50px" height="50px">
+            <div class="cj"> 
+                <span id="numeroResaltado">1+</span>
+                <span> Years of Experience </span>
+            </div>
+            <div>></div>
+        </div>
+        <div class="cajaMediana center">
+            <img src="./img/Group 6 (1).png" alt="logo completed projects" width="50px" height="50px">
+            <div class="cj">
+                <span id="numeroResaltado">2+</span>
+                <span>Completed Projects</span>
+            </div> 
+            <div>></div>
+        </div>
+        <div class="cajaMediana center">
+            <img src="./img/Group 6(2).png" alt="logo happy clients" width="50px" height="50px">
+            <div class="cj">
+                <span id="numeroResaltado">5+</span>
+                <span>Happy Clients</span>
+            </div>
+            <div>></div>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <h3> <span id="nombreResaltado"> Daniela Salazar.</span></h3>
+            <h5>Assistant Administrative, English Student and Dev Wannibe.</h5>
+        </div>
+        <div>
+            <h4>Useful Links</h4>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>                
+        </div>
+        <div>
+            <h4>Social Media</h4>
+            <ul>
+                <li><a href="">Linkedin</a></li>
+                <li><a href="https://github.com/Dani12ss">Github</a></li>
+                <li><a href="https://www.instagram.com/danisalazar_s59/">Instagram</a></li>
+            </ul>                
+        </div>
+        <div>
+            <h4>Hire Me</h4>
+            <ul>
+                <li><span> Enter your email to get my portafolio and CV.</span></li>
+                <div class="botonEmail">
+                    <input type="email" name="" placeholder="name@example.com">   
+                    <button><img src="./img/Vector.png" alt="logo"></button>
+                </div>
+            </ul>
+        </div>
+    </footer>
+</body>
 
 </html>
