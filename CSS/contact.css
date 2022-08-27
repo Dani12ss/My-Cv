@@ -9,17 +9,18 @@ body{
     color: white;
 }
 
-a:link,
+/* a:link,
 a:visited{
     color: white;
 }
-
+ */
 a:hover {
     color: #ffb742;
 }
 
 a {
     text-decoration: none;
+    color: white;
 }
 header {
     display: flex;
@@ -42,27 +43,94 @@ header button {
     border-style: none;
     margin: 10px;  
 }
-main {
-    font-family: 'inter';
-    justify-content:center;
-    align-content: center;
-    margin: 30px 10px;
-    text-align: center;
-}
 main button{
     background-color: #292b2e;
     height: 42px;
     width: 113px;
     border-radius: 50px;
     border-style: none;
-}
-#resaltado {
     font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 600px;
     color: #ffb742;
 }
-h5{
-    font-size: 30px;
+
+.datosContacto {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 10px;
+    margin: 30px;
 }
+.cajaChistes {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    width: 530px ;
+    height: 150px;
+    font-size: 20px;
+    font-family: 'Poppins';
+    color: black;
+    border: 2px solid black;
+}
+.text {
+    font-size: 39px; 
+    font-family:'Roboto';
+}
+.botonChiste {
+    color: black; 
+    font-size: 18px; 
+    font-weight:700px; 
+    font-family: 'Poppins';
+}
+#oneMore {
+    background-color: #ffb742;
+    color: black;
+}
+.botonDos {
+    color:#ffb742; 
+    font-size: 18px; 
+    font-family: 'Poppins';
+    height: 60px;
+    width: 200px;
+}
+
+.formato {
+    background-color: #212529;
+    display: flex;
+    flex-direction: column;
+    width: 530px;
+    height: 83px;
+}
+#name {
+    background-color: #212529;
+    color: white;
+    font-size: 20px;
+    font-family: 'Nexa';
+}
+#email {
+    background-color: #212529;
+    color: white;
+    font-size: 20px;
+    font-family: 'Nexa';
+}
+#phone {
+    background-color: #212529;
+    color: white;
+    font-size: 20px;
+    font-family: 'Nexa';
+}
+.botonTres {
+    color: black;
+    font-size: 18px;
+    font-weight: 700px; 
+    font-family: 'Poppins';
+}
+#botonSend {
+    background-color: #ffb742;
+    color: black;
+}
+
 footer {
     background-color: #1c1c1c;
     display: flex;
@@ -76,4 +144,12 @@ footer li {
     font-size: 10px;
     margin: 2px;
     color: #7B7B7B;
+}
+
+.change-mode-body {
+    background-color: white;
+}
+.change-mode-etiqueta-a {
+    text-decoration: none;
+    color: black;
 }

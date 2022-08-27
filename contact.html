@@ -7,11 +7,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/styles.css">
     <link rel="stylesheet" href="./CSS/contact.css">
     <link rel="icon" href="favicon.png">
     <title>My CV</title>
 </head>
-<body>
+<body class="body">
     <header>
         <img src="./img/Frame 7.svg" alt="logo">
         <nav>
@@ -22,27 +23,45 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <button>Change Mode</button>
+        <button id="botonPrincipal">Change Mode</button>
     </header>
     <main>
         <div class="datosContacto">
             <div>
-                <button><span id="resaltado"> SMILE </span></button>
-                <span class="">Contact Me, or...Smile!</span>
+                <button>SMILE!</button>
             </div>
-            <ul>
-                <li><h2>Daniela Salazar Suarez</h2></li>
-                <li><h2>danielasalazarsarez@gmail.com</h2></li>
-                <li><h2>3226223914</h2></li>
-            </ul>
-            <button>Send</button>
+            <div>
+                <span class="text">Contact Me, or...Smile!</span>
+            </div>
+            <div class="cajaChistes">
+                <h5>Geek Jokes!</h5>
+                <div id="chiste"></div>
+                <div id="respuesta"></div>
+            </div>
+            <div class="botonChiste">
+                <button id="oneMore"> One More!</button>
+            </div>
+            <div class="botonDos">
+                <button>CONTACT ME</button>
+            </div>
+            <div id="formularioDatos">
+                <form class="formato"  action="">
+                    <input type="text" name="" id="name" placeholder="Name">
+                    <input type="email" name="" id="email" placeholder="Email address">
+                    <input type="text" name="" id="phone" placeholder="Phone number">
+                </form>
+            </div>
+            <div class="botonTres">
+                <button id="botonSend" >Send</button>
+            </div>
+            
         </div>
     </main>
     
     <footer>
         <div>
             <h3> <span id="nombreResaltado"> Daniela Salazar.</span></h3>
-            <h5>Assistant Administrative, English Student and Dev Wannibe.</h5>
+            <h5>Assistant Administrative and Dev Wannabe.</h5>
         </div>
         <div>
             <h4>Useful Links</h4>
@@ -70,5 +89,7 @@
             </ul>
         </div>
     </footer>
+    <script src="./proyecto1.js"></script>
+    <script src="./chiste.js"></script>
 </body>
 </html>

@@ -9,10 +9,10 @@ body{
     color: white;
 }
 
-a:link,
+/* a:link,
 a:visited{
     color: white;
-}
+} */
 
 a:hover {
     color: #ffb742;
@@ -20,6 +20,7 @@ a:hover {
 
 a {
     text-decoration: none;
+    color: white;
 }
 header {
     display: flex;
@@ -48,14 +49,37 @@ main {
     justify-content:right;
     align-content: right;
     margin: 30px 10px;
-    text-align: justify;
+    text-align:left;
+}
+.main1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 50px;
+}
+#subtitulo {
+    font-size:48px ; 
+    font-family: 'Roboto';
+}
+#botonHire {
+    background-color: #ffb742; 
+    color: black; 
+    font-size: 18px; 
+    font-weight:700px; 
+    font-family: 'Poppins';
 }
 
-#resaltado {
-    font-size: 18px;
-    color: #ffb742; 
+main button{
+    background-color: #292b2e;
+    height: 50px;
+    width: 130px;
+    border-radius: 50px;
+    border-style: none;
+    font-family:'Poppins';
+    font-weight: 600px;
+    font-size: 20px;
+    color: #ffb742;
 }
-
 
 footer {
     background-color: #1c1c1c;
@@ -70,4 +94,12 @@ footer li {
     font-size: 10px;
     margin: 2px;
     color: #7B7B7B;
+}
+
+.change-mode-body {
+    background-color: white;
+}
+.change-mode-etiqueta-a {
+    text-decoration: none;
+    color: black;
 }

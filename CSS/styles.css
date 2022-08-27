@@ -9,10 +9,11 @@ body{
     color: white;
 }
 
-a:link,
+/* a:link,
 a:visited{
     color: white;
-}
+} */
+
 
 a:hover {
     color: #ffb742;
@@ -20,6 +21,8 @@ a:hover {
 
 a {
     text-decoration: none;
+    color: white;
+   
 }
 
 header {
@@ -32,8 +35,10 @@ ul {
 li {
     list-style: none;
     margin: 20px;
+    
 }
 button {
+    cursor: pointer;
     font-weight: 900;
     background-color: #ffb742;
     color: black;
@@ -68,6 +73,7 @@ h2 {
 }
 h1 {
     font-size: 30px;
+    
 }
 
 section {
@@ -88,6 +94,11 @@ section div {
     margin: 30px;
     border-radius: 10px;
 }
+.icono {
+    font-size: 20px;
+    margin-top:80px ;
+
+}
 .cj {
     display: flex;
     flex-direction: column;
@@ -95,6 +106,7 @@ section div {
 }
 .cajaMediana{
     background-color: #292b2e;
+    color: white;
     margin:10px 15px;
     padding: 3px;
     justify-content: space-between;
@@ -124,7 +136,18 @@ footer li {
 }
 .botonEmail {
     display: flex;
-    height: 30px;
+    align-items: baseline;
+    height: 20px;
+    width: 30px;
     border-radius: 30px;
-    
+
+}
+.change-mode-body {
+    background-color: white;
+    font-family: 'Poppins';
+    color: black;
+}
+.change-mode-etiqueta-a {
+    text-decoration: none;
+    color: black;
 }

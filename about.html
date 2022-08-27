@@ -7,11 +7,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/styles.css">
     <link rel="stylesheet" href="./CSS/about.css"> 
     <title>My CV</title>
 
 </head>
-<body>
+<body class="body">
     <header>
          <img src="./img/Frame 7.svg" alt="logo">
          <nav>
@@ -22,16 +23,16 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <button>Change Mode</button>
+        <button id="botonPrincipal">Change Mode</button>
     </header>
 
-    <main>
-        <img src="./img/Group 11 (1).png" alt="Profile" width="300px" height="300px">
-         <div>
-            <button><span id= "resaltado"> WHO I AM </span></button>
-            <h1>About Me</h1>
-            <p>Hi! I'm Daniela Salazar Suarez, and I'm Assistant Administrative who likes to help companies to grow and have better efficiency and order to improve their customer service. As well I'm student of English because I like to know new cultures and people, besides this language I would like to learn Portuguese, French and Italian. I love gaining new knowledge and challenges that make me grow professionally and get new skills. Now I'm studying Programming and I think it is a great challenge but the skills and abilities you develop as a person make it worthwhile and expand your word.</p>
-            <button>Hire Me</button>
+    <main class="main1">
+        <img src="./img/Group 11 (1).png" alt="Profile" width="400px" height="400px">
+         <div >
+            <button> WHO I AM </button>
+            <h1 id="subtitulo">About Me</h1>
+            <p>Hi! I'm Daniela Salazar Suarez, and I'm Assistant Administrative who likes to help companies to grow, have better efficiency and order to improve their customer service. As well I'm student of English because I like to know new cultures, people, kind of food and of course opens many oportunities, besides of this language I would like to learn Portuguese, French and Italian. I love gaining new knowledge and challenges that make me grow professionally and get new skills. Now I'm studying Programming and I think it is a great challenge but the skills and abilities you develop as a person make it worthwhile and expand your word.</p>
+            <button id="botonHire">Hire Me</button>
         </div>
         
     </main>
@@ -39,7 +40,7 @@
     <footer>
         <div>
             <h3> <span id="nombreResaltado"> Daniela Salazar.</span></h3>
-            <h5>Assistant Administrative, English Student and Dev Wannibe.</h5>
+            <h5>Assistant Administrative and Dev Wannabe.</h5>
         </div>
         <div>
             <h4>Useful Links</h4>
@@ -67,5 +68,6 @@
             </ul>
         </div>
     </footer>
+    <script src="./proyecto1.js"></script>
 </body>
 </html>

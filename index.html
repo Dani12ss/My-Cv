@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./CSS/styles.css">
     <title>My CV</title>
 </head>
-<body>
+<body class="body">
     <header>
         <img src="./img/Frame 7.svg" alt="logo">
         <nav>
@@ -21,12 +21,12 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <button>Change Mode</button>
+        <button id="botonPrincipal">Change Mode</button>
     </header>
 
     <main>
         <h2>Hi, I Am <span id="nombreResaltado">Daniela Salazar Suarez &#128075;</span></h2>
-        <h1>Assistant Administrative, English Student and Dev Wannibe.</h1>
+        <h1>Assistant Administrative and Dev Wannabe.</h1>
         <span id="subtituloMain">Don't Give Up, Make It Worthwhile.</span>
         <img src="./img/myAvatar (4).png" alt="Profile">
     </main>
@@ -37,7 +37,7 @@
                 <span id="numeroResaltado">1+</span>
                 <span> Years of Experience </span>
             </div>
-            <div>></div>
+            <div class="icono">></div>
         </div>
         <div class="cajaMediana center">
             <img src="./img/Group 6 (1).png" alt="logo completed projects" width="50px" height="50px">
@@ -45,7 +45,7 @@
                 <span id="numeroResaltado">2+</span>
                 <span>Completed Projects</span>
             </div> 
-            <div>></div>
+            <div class="icono">></div>
         </div>
         <div class="cajaMediana center">
             <img src="./img/Group 6(2).png" alt="logo happy clients" width="50px" height="50px">
@@ -53,13 +53,13 @@
                 <span id="numeroResaltado">5+</span>
                 <span>Happy Clients</span>
             </div>
-            <div>></div>
+            <div class="icono">></div>
         </div>
     </section>
     <footer>
         <div>
             <h3> <span id="nombreResaltado"> Daniela Salazar.</span></h3>
-            <h5>Assistant Administrative, English Student and Dev Wannibe.</h5>
+            <h5>Assistant Administrative and Dev Wannabe.</h5>
         </div>
         <div>
             <h4>Useful Links</h4>
@@ -83,12 +83,14 @@
             <ul>
                 <li><span> Enter your email to get my portafolio and CV.</span></li>
                 <div class="botonEmail">
-                    <input type="email" name="" placeholder="name@example.com">   
-                    <button><img src="./img/Vector.png" alt="logo"></button>
+                    <button><input type="email" name="" placeholder="name@example.com">
+                        <img src="./img/Vector.png" alt="logo">
+                    </button>    
                 </div>
             </ul>
         </div>
     </footer>
+    <script src="./proyecto1.js"></script>
 </body>
 
 </html>
