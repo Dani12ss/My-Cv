@@ -95,6 +95,15 @@ footer li {
     margin: 2px;
     color: #7B7B7B;
 }
+.correo {
+    align-items: stretch; 
+}
+.botonEmail {
+   background-color: #ffb742;
+   height: 30px;
+   width: 50px;
+   border-radius: 100px;
+}
 
 .change-mode-body {
     background-color: white;

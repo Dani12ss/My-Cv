@@ -45,14 +45,16 @@ header button {
 }
 main button{
     background-color: #292b2e;
-    height: 42px;
-    width: 113px;
+    /*height: 42px;*/
+    display:inline;
+    width: 120px;
     border-radius: 50px;
     border-style: none;
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'Poppins';
     font-weight: 600px;
     color: #ffb742;
+    
 }
 
 .datosContacto {
@@ -67,32 +69,45 @@ main button{
     display: flex;
     flex-direction: column;
     width: 530px ;
-    height: 150px;
+    /* height: 150px; */
     font-size: 20px;
     font-family: 'Poppins';
     color: black;
-    border: 2px solid black;
+    border-radius: 10px;
+    word-wrap: break-word;
+    
+    
 }
+/*#chiste {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 20px;
+
+}*/
 .text {
     font-size: 39px; 
     font-family:'Roboto';
 }
 .botonChiste {
     color: black; 
+    /*align-items: flex-end;
     font-size: 18px; 
     font-weight:700px; 
-    font-family: 'Poppins';
+    font-family: 'Poppins';*/
 }
 #oneMore {
     background-color: #ffb742;
     color: black;
+    
 }
 .botonDos {
     color:#ffb742; 
-    font-size: 18px; 
+    /*font-size: 11px; 
     font-family: 'Poppins';
-    height: 60px;
-    width: 200px;
+    word-wrap: normal; 
+    height: 60px;*/
+    /*width: 200px;*/
 }
 
 .formato {
@@ -101,6 +116,7 @@ main button{
     flex-direction: column;
     width: 530px;
     height: 83px;
+    
 }
 #name {
     background-color: #212529;
@@ -144,6 +160,15 @@ footer li {
     font-size: 10px;
     margin: 2px;
     color: #7B7B7B;
+}
+.correo {
+    align-items: stretch; 
+}
+.botonEmail {
+   background-color: #ffb742;
+   height: 30px;
+   width: 50px;
+   border-radius: 100px;
 }
 
 .change-mode-body {

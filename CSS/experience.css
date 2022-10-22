@@ -107,6 +107,13 @@ section div
 a:visited{
     color: #ffb742;   
 }
+.sub {
+    text-decoration-line: underline;
+}
+section p 
+a:visited{
+   color: black;
+}
 .logoL {
     width: 98px;
     height: 59px;
@@ -129,7 +136,15 @@ footer li {
     margin: 2px;
     color: #7B7B7B;
 }
-
+.correo {
+    align-items: stretch; 
+}
+.botonEmail {
+   background-color: #ffb742;
+   height: 30px;
+   width: 50px;
+   border-radius: 100px;
+}
 .change-mode-body {
     background-color: white;
 }
